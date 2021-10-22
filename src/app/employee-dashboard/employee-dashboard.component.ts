@@ -8,7 +8,8 @@ import { ApiService } from '../services/api.service';
   templateUrl: './employee-dashboard.component.html',
   styleUrls: ['./employee-dashboard.component.css']
 })
-export class EmployeeDashboardComponent implements OnInit {
+export class EmployeeDashboardComponent implements OnInit 
+{
 
   formValue !:FormGroup;
 employeeModelObj : EmployeeModel=new EmployeeModel();
