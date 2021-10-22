@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder,FormGroup,Validators } from '@angular/forms'
-import { EmployeeModel } from '../employee-dashboard.model';
-import { ApiService } from '../api.service';
+import { EmployeeModel } from '../employee-dashboard/employee-dashboard.model';
+import { ApiService } from '../services/api.service';
 
 @Component({
   selector: 'app-employee-dashboard',
